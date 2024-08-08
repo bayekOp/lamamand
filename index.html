@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#types-of-women">Types of Women</a></li>
+            <li><a href="#sizes">Sizes</a></li>
+            <li><a href="#body-structure">Body Structure</a></li>
+        </ul>
+    </nav>
+    
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src= "background.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <div class="center-buttons">
+        <button onclick="selectGender('male')">Male</button>
+        <button onclick="selectGender('female')">Female</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
